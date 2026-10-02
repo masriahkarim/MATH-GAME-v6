@@ -80,19 +80,19 @@ Ikuti langkah mudah ini untuk menjalankan permainan di komputer anda:
 
 ## 🚀 Deploy to GitHub Pages (Cara Publish ke GitHub Pages)
 
-Project ini telah siap dikonfigurasikan khas untuk repository **`MATH-GAME`** (`https://masriahkarim.github.io/MATH-GAME/`).
+Project ini telah siap dikonfigurasikan khas untuk repository **`MATH-GAME-v6`** (`https://masriahkarim.github.io/MATH-GAME-v6/`).
 
 ### Kaedah 1: Menggunakan GitHub Actions (Paling Disyorkan & Automatik)
 
 1. **Tolak (*push*) kod ke repository GitHub anda:**
    ```bash
    git add .
-   git commit -m "fix: Update GitHub Pages configuration with base path and build workflow"
+   git commit -m "fix: Vite build deployment configuration for MATH-GAME-v6"
    git push origin main
    ```
 
 2. **Aktifkan GitHub Actions di Settings GitHub:**
-   - Buka repository **`MATH-GAME`** di laman web GitHub.
+   - Buka repository **`MATH-GAME-v6`** di laman web GitHub.
    - Klik tab **Settings** (ikon gear di atas).
    - Di menu sebelah kiri, klik **Pages**.
    - Pada bahagian **Source**, tukar pilihan kepada:
@@ -100,7 +100,7 @@ Project ini telah siap dikonfigurasikan khas untuk repository **`MATH-GAME`** (`
    
 3. **Selesai!**
    - Workflow `.github/workflows/deploy.yml` akan secara automatik memasang pakej, menjalankan `npm run build`, dan memuat naik fail production yang lengkap ke GitHub Pages.
-   - Buka pautan: **https://masriahkarim.github.io/MATH-GAME/**
+   - Buka pautan: **https://masriahkarim.github.io/MATH-GAME-v6/**
 
 ---
 

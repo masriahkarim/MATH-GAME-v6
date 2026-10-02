@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(({ command }) => {
   return {
-    base: command === 'build' ? '/MATH-GAME/' : '/',
+    base: command === 'build' ? '/MATH-GAME-v6/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
