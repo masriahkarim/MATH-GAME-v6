@@ -1,0 +1,8 @@
+{
+  "name": "MATH RUSH 🚀",
+  "description": "Game arked matematik interaktif 5 minit untuk kanak-kanak berumur 7-12 tahun. Jawab pantas, bina combo, kalahkan Final Boss, dan jadi Math Hero!",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
